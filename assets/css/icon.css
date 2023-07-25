@@ -1,0 +1,14 @@
+.icon{
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../icons/back.svg);
+}
+.icon-back{
+    background-image: url(../icons/back.svg);
+}
+.icon-call{
+    background-image: url(../icons/call.svg);
+}
