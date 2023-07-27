@@ -1,7 +1,14 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #f2f6ff;
     color: #171A3C;
     font-family: 'Poppins';
+      width: auto;
+    height: auto;
+    
+
     
 }
 
@@ -9,24 +16,30 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100wh;
-    height: 100wh;
+    flex-direction: column;
+  
+    position: relative;
     
 }
 .box-shadow{
-width: 326px;
-height: 763px;
+    width: 326px;
+    height: 763px;
 border-radius: 43px;
-background: var(--171-a-3-c, #171A3C);
+background: #171A3C;
+position: absolute;
+top: 94px;
+left: 188px;
 
 }
 
 .card {
 
-    width: 440px;
+    width: 444px;
+height: 749px;
     border-radius: 24px;
     background: #FFF;
     box-shadow: 0px 24px 27px 0px rgba(105, 113, 186, 0.16);
+    z-index: 1;
 
 }
 
